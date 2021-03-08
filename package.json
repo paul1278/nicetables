@@ -1,6 +1,6 @@
 {
-  "name": "nicetable",
-  "version": "1.0.0",
+  "name": "nicetables",
+  "version": "0.1.0",
   "description": "An easy to use console-table package.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "ci-lint": "eslint . --max-warnings=0",
     "test": "nyc mocha"
   },
-  "keywords": [],
+  "keywords": ["table", "console", "cli", "generator"],
   "author": "Paul",
   "license": "MIT",
   "devDependencies": {
