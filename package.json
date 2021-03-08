@@ -1,14 +1,18 @@
 {
   "name": "nicetables",
-  "version": "0.1.1",
-  "description": "An easy to use console-table package.",
+  "version": "1.0.0",
+  "description": "An easy to use console-table package which prints out tables.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix",
     "ci-lint": "eslint . --max-warnings=0",
     "test": "nyc mocha"
   },
-  "keywords": ["table", "console", "cli", "generator"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paul1278/nicetables"
+  },
+  "keywords": ["table", "console", "cli", "generator", "formatter"],
   "author": "Paul",
   "license": "MIT",
   "devDependencies": {
