@@ -1,6 +1,6 @@
 {
   "name": "nicetables",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An easy to use console-table package.",
   "main": "index.js",
   "scripts": {
