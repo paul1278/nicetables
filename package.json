@@ -4,9 +4,9 @@
   "description": "An easy to use console-table package.",
   "main": "index.js",
   "scripts": {
-    "startmon": "nodemon ./index.js",
     "lint": "eslint . --fix",
-    "ci-lint": "eslint . --max-warnings=0"
+    "ci-lint": "eslint . --max-warnings=0",
+    "test": "nyc mocha"
   },
   "keywords": [],
   "author": "Paul",
@@ -15,9 +15,12 @@
     "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-jsdoc": "^32.2.0",
+    "eslint-plugin-mocha": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "jsdoc": "^3.6.6",
+    "mocha": "^8.3.1",
     "nodemon": "^2.0.7",
+    "nyc": "^15.1.0",
     "prettier": "^2.2.1"
   }
 }

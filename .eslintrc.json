@@ -7,11 +7,12 @@
     },
     "root": true,
     "extends": [
-        "prettier", "eslint:recommended"
+        "prettier", "eslint:recommended",  "plugin:mocha/recommended"
     ],
     "plugins": [
       "prettier",
-      "jsdoc"
+      "jsdoc",
+      "mocha"
     ],
     "rules": {
         "prettier/prettier": "error",
