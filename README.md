@@ -2,7 +2,7 @@
 Simple to use table-printer for console-applications.
 
 ## Usage
-Simple usage example with default dimensions (every column has the same width).
+Usage example with default dimensions (every column has the same width).
 
 ```js
 const NiceTable = require("./lib/NiceTable");
@@ -33,7 +33,7 @@ table.addRow("data1", "data2");
 table.addRow("data3", "data4", "data5");
 table.print();
 ```
-Will produce (fitting to your console-width):
+Will produce (fitted to your console-width):
 ```
 |===========+=================+==================|
 |Column #1  |Column #2        |Col               |
@@ -78,6 +78,8 @@ Sets the amount of lines to output per column in a row until it gets trimmed.
 
 ### setTitles(...titles)
 Sets the titles of the table-columns. Because the columns are calculated based on the given data, you can enter as many titles as you want. If you enter fewer titles than there are columns, these columns will get the default title `Col`.
+
+---
 
 ## License
 MIT License
