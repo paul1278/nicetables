@@ -5,7 +5,7 @@ Simple to use table-printer for console-applications.
 Usage example with default dimensions (every column has the same width).
 
 ```js
-const NiceTable = require("./lib/NiceTable");
+const NiceTable = require("nicetables");
 const table = new NiceTable();
 table.setTitles("Column #1", "Column #2");
 table.addRow("data1", "data2");
@@ -25,7 +25,7 @@ This will produce (fitted to your console width):
 
 Another example with percentual dimensions:
 ```js
-const NiceTable = require("./lib/NiceTable");
+const NiceTable = require("nicetables");
 const table = new NiceTable();
 table.setDimensions(0.25);
 table.setTitles("Column #1", "Column #2");
